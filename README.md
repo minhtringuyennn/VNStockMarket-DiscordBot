@@ -10,6 +10,6 @@ Code có sử dụng API của VNDIRECT và code từ  [repo của phamdinhkhanh
 ## 2. Cài đặt
 Sau khi clone thư mục về có thể chạy file main.py và nhập cổ phiếu cần xem.
 ```
-git clone
+git clone https://github.com/minhtringuyennn/StockNotifer.git
 python main.py
 ```
