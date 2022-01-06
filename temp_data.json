@@ -1,0 +1,136 @@
+{
+    "schema": {
+        "fields": [
+            {
+                "name": "index",
+                "type": "integer"
+            },
+            {
+                "name": "symbol",
+                "type": "string"
+            },
+            {
+                "name": "companyName",
+                "type": "string"
+            },
+            {
+                "name": "listedDate",
+                "type": "string"
+            },
+            {
+                "name": "delistedDate",
+                "type": "integer"
+            },
+            {
+                "name": "floor",
+                "type": "string"
+            },
+            {
+                "name": "industryName",
+                "type": "string"
+            }
+        ],
+        "pandas_version": "0.20.0"
+    },
+    "data": [
+        {
+            "index": 0,
+            "symbol": "HPG",
+            "companyName": "Công ty Cổ phần Tập đoàn Hòa Phát",
+            "listedDate": "2007-11-15",
+            "delistedDate": 0,
+            "floor": "HOSE",
+            "industryName": "Thép"
+        },
+        {
+            "index": 1,
+            "symbol": "HSG",
+            "companyName": "Công ty Cổ phần Tập đoàn Hoa Sen",
+            "listedDate": "2008-12-05",
+            "delistedDate": 0,
+            "floor": "HOSE",
+            "industryName": "Thép"
+        },
+        {
+            "index": 2,
+            "symbol": "NKG",
+            "companyName": "Công ty Cổ phần Thép Nam Kim",
+            "listedDate": "2011-01-14",
+            "delistedDate": 0,
+            "floor": "HOSE",
+            "industryName": "Thép"
+        },
+        {
+            "index": 3,
+            "symbol": "POM",
+            "companyName": "Công ty Cổ phần Thép Pomina",
+            "listedDate": "2010-04-20",
+            "delistedDate": 0,
+            "floor": "HOSE",
+            "industryName": "Thép"
+        },
+        {
+            "index": 4,
+            "symbol": "SMC",
+            "companyName": "Công ty Cổ phần đầu tư thương mại SMC ",
+            "listedDate": "2006-10-30",
+            "delistedDate": 0,
+            "floor": "HOSE",
+            "industryName": "Thép"
+        },
+        {
+            "index": 5,
+            "symbol": "TIS",
+            "companyName": "Công ty Cổ phần Gang thép Thái Nguyên ",
+            "listedDate": "2011-03-24",
+            "delistedDate": 0,
+            "floor": "UPCOM",
+            "industryName": "Thép"
+        },
+        {
+            "index": 6,
+            "symbol": "TLH",
+            "companyName": "Công ty Cổ phần Tập đoàn thép Tiến Lên",
+            "listedDate": "2010-03-16",
+            "delistedDate": 0,
+            "floor": "HOSE",
+            "industryName": "Thép"
+        },
+        {
+            "index": 7,
+            "symbol": "TVN",
+            "companyName": "Tổng công ty Thép Việt Nam - CTCP",
+            "listedDate": "2016-01-18",
+            "delistedDate": 0,
+            "floor": "UPCOM",
+            "industryName": "Thép"
+        },
+        {
+            "index": 8,
+            "symbol": "VCA",
+            "companyName": "Công ty Cổ phần Thép VICASA - VNSTEEL",
+            "listedDate": "2021-03-10",
+            "delistedDate": 0,
+            "floor": "HOSE",
+            "industryName": "Thép"
+        },
+        {
+            "index": 9,
+            "symbol": "VGS",
+            "companyName": "Công ty Cổ phần Ống thép Việt Đức VG PIPE",
+            "listedDate": "2008-12-04",
+            "delistedDate": 0,
+            "floor": "HNX",
+            "industryName": "Thép"
+        },
+        {
+            "index": 10,
+            "symbol": "VIS",
+            "companyName": "Công ty Cổ phần Thép Việt Ý",
+            "listedDate": "2006-12-25",
+            "delistedDate": 0,
+            "floor": "HOSE",
+            "industryName": "Thép"
+        }
+    ]
+}

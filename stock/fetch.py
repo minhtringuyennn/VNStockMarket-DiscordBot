@@ -27,8 +27,8 @@ class DataLoader():
         self.end = end
         self.minimal = minimal
 
-    def download(self):
-        loader = Fetch(self.symbols, self.start, self.end)
+    def fetchPrice(self):
+        loader = FetchDailyPrice(self.symbols, self.start, self.end)
         stock_data = loader.batch_download()
 
         if self.minimal:
@@ -37,8 +37,8 @@ class DataLoader():
         else:
             return stock_data
 
-# Fetch data from API
-class Fetch(Stocks):
+# Fetch daily stock price from API
+class FetchDailyPrice(Stocks):
     def __init__(self, symbols, start, end):
         self.symbols = symbols
         self.start = start
@@ -90,15 +90,13 @@ class Fetch(Stocks):
                         'volume_match', 'value_match', 'volume_reconcile', 'value_reconcile',
                         'open', 'high', 'low']
 
-        # Set index by date
+        # Clean up data
         stock_data = stock_data.set_index('date').apply(pd.to_numeric, errors='coerce')
-        stock_data.index = list(map(utils.convert_date, stock_data.index))
-        
         stock_data = stock_data.sort_index() # Sort table
         stock_data.fillna(0, inplace=True) # Fill NaN --> 0
         
         # Add volumn column
-        stock_data['volume'] = stock_data.volume_match + stock_data.volume_reconcile
+        stock_data['volume'] = stock_data.volume_match
 
         # Add label
         iterables = [stock_data.columns.tolist(), [symbol]]
@@ -110,6 +108,91 @@ class Fetch(Stocks):
                      .format(symbol,
                              utils.convert_text_dateformat(self.start, origin_type = '%d/%m/%Y', new_type = '%Y-%m-%d'),
                              utils.convert_text_dateformat(self.end, origin_type='%d/%m/%Y', new_type='%Y-%m-%d')))
+
+        # Return data
+        return stock_data
+
+class FetchCategories():
+    def __init__(self):
+        super().__init__()
+        
+    def fetchFloor(self, floor = "HOSE"):
+        if floor != "HOSE" and floor != "HNX" and floor != "UPCOM":
+            logging.info('Floor is not support!'.format(floor))
+            return None
+        
+        # API
+        API_VNDIRECT = f'https://finfo-api.vndirect.com.vn/stocks?floor={floor}'
+        
+        # Get reponse from API
+        res = requests.get(API_VNDIRECT, headers=HEADERS)
+        data = res.json()['data']  
+        data = pd.DataFrame(data)
+        
+        stock_data = data[['symbol', 'companyName', 'listedDate', 'delistedDate', 'floor', 'industryName']].copy()
+
+        # Clean up data
+        stock_data = stock_data.sort_index() # Sort table
+        stock_data.fillna(0, inplace=True) # Fill NaN --> 0
+
+        # Logging
+        logging.info('data from floor {} clone successfully!'.format(floor))
+
+        # Return data
+        return stock_data
+    
+    def fetchVN30(self):
+        # API
+        API_VNDIRECT = 'https://finfo-api.vndirect.com.vn/stocks?indexCode=VN30'
+        
+        # Get reponse from API
+        res = requests.get(API_VNDIRECT, headers=HEADERS)
+        data = res.json()['data']  
+        data = pd.DataFrame(data)
+        
+        stock_data = data[['symbol', 'companyName', 'listedDate', 'delistedDate', 'floor', 'industryName']].copy()
+
+        # Clean up data
+        stock_data = stock_data.sort_index() # Sort table
+        stock_data.fillna(0, inplace=True) # Fill NaN --> 0
+
+        # Logging
+        logging.info('data VN30 clone successfully!')
+
+        # Return data
+        return stock_data
+    
+    def batch_download(self, symbols):
+        stock_datas = []
+        
+        # Check symbols contains list of stocks or not
+        if not isinstance(symbols, list):
+            symbols = [symbols]
+
+        for symbol in symbols:
+            stock_datas.append(self.download_new(symbol))
+        
+        data = pd.concat(stock_datas)
+        logging.info('batch clone successfully with {} stocks!'.format(len(symbols)))
+        
+        return data
+    
+    def download_new(self, symbol):
+        # API
+        API_VNDIRECT = f'https://finfo-api.vndirect.com.vn/stocks?symbol={symbol}'
+        
+        # Get reponse from API
+        res = requests.get(API_VNDIRECT, headers=HEADERS)
+        data = res.json()['data']  
+        data = pd.DataFrame(data)
+        
+        stock_data = data[['symbol', 'companyName', 'listedDate', 'delistedDate', 'floor', 'industryName']].copy()
+        
+        # Clean up data
+        stock_data.fillna(0, inplace=True) # Fill NaN --> 0
+
+        # Logging
+        logging.info('data stock {} clone successfully!'.format(symbol))
 
         # Return data
         return stock_data
