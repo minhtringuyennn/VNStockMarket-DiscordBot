@@ -1,0 +1,25 @@
+index,symbol,companyName,listedDate,floor,industryName
+0,ASP,Công ty Cổ phần Tập đoàn Dầu khí An Pha,2008-02-15,HOSE,Gas
+1,BSR,Công ty cổ phần Lọc – Hóa dầu Bình Sơn,2018-03-01,UPCOM,Dầu khí tổng hợp
+2,CNG,Công ty Cổ phần CNG Việt Nam,2011-11-23,HOSE,Gas
+3,GAS,Tổng Công ty Khí Việt Nam - CTCP,2012-05-21,HOSE,Gas
+4,GSP,Công ty Cổ phần Vận tải Sản Phẩm khí Quốc Tế,2012-03-09,HOSE,Gas
+5,OIL,Tổng Công ty Dầu Việt Nam – Công ty cổ phần,2018-03-07,UPCOM,Dầu khí tổng hợp
+6,PGC,Tổng Công ty Gas Petrolimex - CTCP,2006-11-24,HOSE,Gas
+7,PGD,Công ty Cổ phần Phân phối khí Thấp áp Dầu khí Việt Nam,2009-11-26,HOSE,Gas
+8,PGS,Công ty cổ phần kinh doanh khí miền nam,2007-11-15,HNX,Gas
+9,PLC,Tổng Công ty Hóa dầu Petrolimex - CTCP,2006-12-27,HNX,Hóa chất đặc biệt
+10,PLX,Tập đoàn Xăng dầu Việt Nam,2017-04-21,HOSE,Dầu khí tổng hợp
+11,POW,Tổng Công ty Điện lực Dầu khí Việt Nam – Công ty cổ phần,2019-01-14,HOSE,Điện
+12,PSH,Công ty Cổ phần Thương mại Đầu tư Dầu khí Nam Sông Hậu,2020-06-24,HOSE,Dầu khí tổng hợp
+13,PVB,Công ty Cổ phần Bọc Ống Dầu khí Việt Nam ,2013-12-24,HNX,Dịch vụ và Thiết bị dầu khí
+14,PVC,Tổng công ty Hóa chất và Dịch vụ Dầu khí - CTCP (PVChem),2007-11-15,HNX,Dịch vụ và Thiết bị dầu khí
+15,PVD,Tổng Công ty Cổ phần Khoan và Dịch vụ khoan dầu khí,2006-12-05,HOSE,Dịch vụ và Thiết bị dầu khí
+16,PVG,CÔNG TY CỔ PHẦN KINH DOANH LPG VIỆT NAM,2009-01-07,HNX,Gas
+17,PVM,Công ty cổ phần Máy - Thiết bị Dầu khí,2016-12-20,UPCOM,Máy công nghiệp
+18,PVO,Công ty Cổ phần DẦU NHỜN PV OIL,2016-01-12,UPCOM,Dịch vụ và Thiết bị dầu khí
+19,PVP,Công ty cổ phần Vận tải Dầu khí Thái Bình Dương,2016-12-20,UPCOM,Vận tải biển
+20,PVS,Tổng Công ty Cổ phần Dịch vụ Kỹ thuật Dầu khí Việt Nam,2007-09-20,HNX,Dịch vụ và Thiết bị dầu khí
+21,PVT,Tổng Công ty Cổ phần Vận tải dầu khí,2007-12-10,HOSE,Vận tải biển
+22,PVX,Tổng Công ty Cổ phần Xây lắp Dầu khí Việt Nam,2020-06-17,UPCOM,Xây dựng công trình
+23,PXS,Công ty Cổ phần Kết cấu Kim loại và Lắp máy Dầu khí,2010-06-02,HOSE,Xây dựng công trình

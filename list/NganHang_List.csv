@@ -1,0 +1,27 @@
+index,symbol,companyName,listedDate,floor,industryName
+0,ABB,Ngân hàng Thương mại Cổ phần An Bình,2020-12-28,UPCOM,Ngân hàng
+1,ACB,Ngân hàng Thương mại Cổ phần Á Châu,2020-12-09,HOSE,Ngân hàng
+2,BAB,Ngân hàng Thương mại cổ phần Bắc Á,2021-03-03,HNX,Ngân hàng
+3,BID,Ngân hàng Thương mại Cổ phần Đầu tư và Phát triển Việt Nam ,2014-01-24,HOSE,Ngân hàng
+4,BVB,Ngân hàng TMCP Bản Việt,2020-07-09,UPCOM,Ngân hàng
+5,CTG,Ngân hàng Thương mại Cổ phần Công Thương Việt Nam,2009-07-16,HOSE,Ngân hàng
+6,EIB,Ngân hàng Thương mại Cổ phần Xuất nhập khẩu Việt Nam,2009-10-27,HOSE,Ngân hàng
+7,HDB,Ngân hàng Thương mại Cổ phần Phát triển Thành phố Hồ Chí Minh,2018-01-05,HOSE,Ngân hàng
+8,KLB,Ngân hàng Thương mại Cổ phần Kiên Long,2017-06-29,UPCOM,Ngân hàng
+9,LPB,Ngân hàng Thương mại Cổ phần Bưu điện Liên Việt,2020-11-09,HOSE,Ngân hàng
+10,MBB,Ngân hàng Thương mại Cổ phần Quân đội ,2011-11-01,HOSE,Ngân hàng
+11,MSB,Ngân hàng Thương mại Cổ phần Hàng Hải Việt Nam,2020-12-23,HOSE,Ngân hàng
+12,NAB,Ngân hàng Thương mại Cổ phần Nam Á,2020-10-09,UPCOM,Ngân hàng
+13,NVB,Ngân hàng Thương mại Cổ phần Quốc Dân ,2010-09-13,HNX,Ngân hàng
+14,OCB,Ngân hàng Thương mại Cổ phần Phương Đông,2021-01-28,HOSE,Ngân hàng
+15,PGB,NGÂN HÀNG TMCP XĂNG DẦU PETROLIMEX,2020-12-24,UPCOM,Ngân hàng
+16,SGB,NGÂN HÀNG THƯƠNG MẠI CỔ PHẦN SÀI GÒN CÔNG THƯƠNG,2020-10-15,UPCOM,Ngân hàng
+17,SHB,Ngân hàng Thương mại Cổ phần Sài Gòn - Hà Nội ,2021-10-11,HOSE,Ngân hàng
+18,SSB,Ngân hàng Thương mại Cổ phần Đông Nam Á,2021-03-24,HOSE,Ngân hàng
+19,STB,Ngân hàng Thương mại Cổ phần Sài Gòn Thương Tín,2006-07-12,HOSE,Ngân hàng
+20,TCB,Ngân hàng Thương mại Cổ phần Kỹ Thương Việt Nam - Techcombank,2018-06-04,HOSE,Ngân hàng
+21,TPB,Ngân hàng Thương mại cổ phần Tiên Phong,2018-04-19,HOSE,Ngân hàng
+22,VAB,Ngân hàng Thương mại Cổ phần Việt Á,2021-07-20,UPCOM,Ngân hàng
+23,VCB,Ngân hàng Thương mại Cổ phần Ngoại thương Việt Nam ,2009-06-30,HOSE,Ngân hàng
+24,VIB,Ngân hàng Thương mại Cổ phần Quốc tế Việt Nam,2020-11-10,HOSE,Ngân hàng
+25,VPB,Ngân hàng Thương mại Cổ phần Việt Nam thịnh vượng,2017-08-17,HOSE,Ngân hàng

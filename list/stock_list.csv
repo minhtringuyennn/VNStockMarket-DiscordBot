@@ -1,0 +1,415 @@
+index,symbol,companyName,listedDate,delistedDate,floor,industryName
+0,AAA,Công ty cổ phần Nhựa An Phát Xanh,2016-11-25,0,HOSE,Bao bì & đóng gói
+1,AAM,Công ty Cổ phần Thủy sản Mekong,2009-09-24,0,HOSE,Nông sản và thủy hải sản
+2,AAT,Công ty cổ phần Tiên Sơn Thanh Hoá,2021-03-24,0,HOSE,"Đồ may mặc, trang sức, phụ kiện"
+3,ABS,Công ty Cổ phần Dịch vụ Nông nghiệp Bình Thuận,2020-03-18,0,HOSE,Sản phẩm sinh hóa
+4,ABT,Công ty Cổ phần Xuất nhập khẩu thủy sản Bến Tre,2021-09-06,0,HOSE,Nông sản và thủy hải sản
+5,ACB,Ngân hàng Thương mại Cổ phần Á Châu,2020-12-09,0,HOSE,Ngân hàng
+6,ACC,Công ty cổ phần Đầu tư và Xây dựng Bình Dương ACC,2011-06-30,0,HOSE,Vật liệu xây dựng
+7,ACL,Công ty Cổ phần Xuất nhập khẩu Thủy sản Cửu Long An Giang,2007-09-05,0,HOSE,Nông sản và thủy hải sản
+8,ADG,Công ty Cổ phần Clever Group,2021-02-22,0,HOSE,Các hãng truyền thông
+9,ADS,Công ty Cổ phần Damsan,2016-06-29,0,HOSE,Hóa chất cơ bản
+10,AGG,CTCP Đầu tư và Phát triển Bất động sản An Gia,2020-01-09,0,HOSE,Đầu tư và phát triển bất động sản
+11,AGM,Công ty Cổ phần xuất nhập khẩu An Giang,2012-12-14,0,HOSE,Sản xuất thực phẩm
+12,AGR,Công ty Cổ phần Chứng khoán Agribank,2009-12-10,0,HOSE,Dịch vụ đầu tư
+13,AMD,Công ty cổ phần đầu tư và khoáng sản FLC Stone,2015-06-16,0,HOSE,Bán lẻ tổng hợp
+14,ANV,Công ty TNHH Amicogen Nam Việt,2007-12-07,0,HOSE,Nông sản và thủy hải sản
+15,APC,Công ty Cổ phần Chiếu xạ An Phú,2010-02-05,0,HOSE,Hóa chất đặc biệt
+16,APG,Công ty Cổ phần Chứng khoán APG,2016-11-30,0,HOSE,Dịch vụ đầu tư
+17,APH,Công ty cổ phần Tập đoàn An Phát Holdings,2020-07-28,0,HOSE,Hóa chất cơ bản
+18,ASG,Công ty Cổ phần Tập đoàn ASG,2021-09-27,0,HOSE,Dịch vụ vận tải
+19,ASM,Công ty Cổ phần Tập đoàn Sao Mai ,2010-01-18,0,HOSE,Đầu tư và phát triển bất động sản
+20,ASP,Công ty Cổ phần Tập đoàn Dầu khí An Pha,2008-02-15,0,HOSE,Gas
+21,AST,Công ty Cổ phần Dịch vụ Hàng không Taseco,2018-01-04,0,HOSE,Dịch vụ tiêu dùng chuyên dụng
+22,BAF,Công ty Cổ phần Nông nghiệp BAF Việt Nam,2021-12-03,0,HOSE,Nông sản và thủy hải sản
+23,BBC,Công ty Cổ phần Bibica,2021-09-07,0,HOSE,Sản xuất thực phẩm
+24,BCE,Công ty Cổ phần Xây dựng và Giao thông Bình Dương,2010-06-28,0,HOSE,Xây dựng công trình
+25,BCG,Công ty Cổ phần Bamboo Capital,2015-07-16,0,HOSE,Dịch vụ hỗ trợ kinh doanh
+26,BCM,Tổng Công ty Đầu tư và Phát triển Công nghiệp - CTCP,2020-08-31,0,HOSE,Đầu tư và phát triển bất động sản
+27,BFC,Công ty Cổ phần Phân bón Bình Điền ,2015-10-07,0,HOSE,Hóa chất đặc biệt
+28,BHN,Tổng Công ty Cổ phần Bia - Rượu - Nước giải khát Hà Nội,2017-01-19,0,HOSE,Sản xuất bia
+29,BIC,Tổng Công ty Cổ phần Bảo Hiểm Ngân hàng Đầu tư và Phát triển Việt Nam ,2011-09-06,0,HOSE,Bảo hiểm đa ngành
+30,BID,Ngân hàng Thương mại Cổ phần Đầu tư và Phát triển Việt Nam ,2014-01-24,0,HOSE,Ngân hàng
+31,BKG,Công ty Cổ phần Đầu tư BKG Việt Nam,2020-12-31,0,HOSE,Chế phẩm từ gỗ
+32,BMC,Công ty Cổ phần Khoáng sản Bình Định,2006-12-28,0,HOSE,Khai khoáng nói chung
+33,BMI,Tổng Công ty Cổ phần Bảo Minh ,2008-04-21,0,HOSE,Bảo hiểm đa ngành
+34,BMP,Công ty Cổ phần nhựa Bình Minh,2006-07-11,0,HOSE,Vật liệu xây dựng
+35,BRC,Công ty Cổ phần Cao su Bến Thành ,2011-12-13,0,HOSE,Hóa chất cơ bản
+36,BSI,Công ty Cổ phần Chứng khoán Ngân hàng Đầu tư và Phát triển Việt Nam,2021-09-06,0,HOSE,Dịch vụ đầu tư
+37,BTP,Công ty Cổ phần Nhiệt điện Bà Rịa,2009-11-25,0,HOSE,Điện
+38,BTT,Công ty Cổ phần Thương mại - Dịch vụ Bến Thành,2010-04-14,0,HOSE,Cửa hàng chuyên dụng
+39,BVH,Tập đoàn Bảo Việt ,2009-06-25,0,HOSE,Bảo hiểm đa ngành
+40,BWE,Công ty Cổ phần Nước - Môi trường Bình Dương,2017-07-20,0,HOSE,Nước
+41,C32,Công ty cổ phần CIC39,2012-11-30,0,HOSE,Vật liệu xây dựng
+42,C47,Công ty Cổ phần Xây dựng 47,2011-03-30,0,HOSE,Vật liệu xây dựng
+43,CAV,Công ty Cổ phần dây cáp điện Việt Nam ,2021-09-06,0,HOSE,Thiết bị điện
+44,CCI,Công ty Cổ phần Đầu tư Phát triển Công nghiệp Thương mại Củ Chi,2010-04-15,0,HOSE,Cửa hàng chuyên dụng
+45,CCL,Công ty Cổ phần Đầu tư và Phát triển Đô thị Dầu khí Cửu Long,2011-03-03,0,HOSE,Đầu tư và phát triển bất động sản
+46,CDC,Công ty Cổ phần Chương Dương,2010-09-13,0,HOSE,Xây dựng công trình
+47,CEE,Công ty Cổ phần Xây dựng Hạ tầng CII,2017-05-15,0,HOSE,Xây dựng công trình
+48,CHP,Công ty Cổ phần Thủy điện miền Trung,2016-09-29,0,HOSE,Điện
+49,CIG,Công ty Cổ phần COMA18,2011-07-19,0,HOSE,Đầu tư và phát triển bất động sản
+50,CII,Công ty Cổ phần Đầu tư Hạ tầng Kỹ thuật Thành phố Hồ Chí Minh ,2006-05-18,0,HOSE,Đầu tư và phát triển bất động sản
+51,CKG,CÔNG TY CÔ PHẦN TẬP ĐOÀN TƯ VẤN ĐẦU TƯ XÂY DỰNG KIÊN GIANG,2020-03-25,0,HOSE,"Xây dựng, chế tạo nhà ở"
+52,CLC,Công ty Cổ phần Cát Lợi,2006-11-16,0,HOSE,Thuốc lá
+53,CLL,Công ty Cổ phần Cảng Cát Lái,2014-07-08,0,HOSE,Dịch vụ vận tải
+54,CLW,Công ty Cổ phần Cấp nước Chợ Lớn ,2011-01-11,0,HOSE,Nước
+55,CMG,Công ty Cổ phần Tập đoàn Công nghệ CMC,2010-01-22,0,HOSE,Dịch vụ máy tính
+56,CMV,Công ty Cổ phần Thương Nghiệp Cà Mau,2010-06-21,0,HOSE,Cửa hàng chuyên dụng
+57,CMX,Công ty cổ phần Camimex Group,2010-11-09,0,HOSE,Sản xuất thực phẩm
+58,CNG,Công ty Cổ phần CNG Việt Nam,2011-11-23,0,HOSE,Gas
+59,COM,Công ty Cổ phần Vật Tư - Xăng Dầu,2006-08-07,0,HOSE,Cửa hàng chuyên dụng
+60,CRC,Công ty Cổ phần Create Capital Việt Nam,2018-08-20,0,HOSE,Bán lẻ dụng cụ gia đình
+61,CRE,Công ty Cổ phần Bất động sản Thế kỷ,2018-09-05,0,HOSE,Dịch vụ bất động sản
+62,CSM,Công ty Cổ phần Công nghiệp Cao su Miền Nam,2009-08-11,0,HOSE,Săm lốp
+63,CSV,Công ty Cổ phần hóa chất cơ bản Miền Nam ,2015-03-18,0,HOSE,Hóa chất đặc biệt
+64,CTD,Công ty Cổ phần Xây dựng Coteccons,2010-01-20,0,HOSE,Xây dựng công trình
+65,CTF,Công ty Cổ phần City Auto,2017-05-30,0,HOSE,Cửa hàng chuyên dụng
+66,CTG,Ngân hàng Thương mại Cổ phần Công Thương Việt Nam,2009-07-16,0,HOSE,Ngân hàng
+67,CTI,Công ty Cổ phần Đầu tư Phát triển Cường Thuận IDICO,2010-03-19,0,HOSE,Xây dựng công trình
+68,CTS,Công ty Cổ phần Chứng khoán Ngân hàng Công thương Việt Nam,2017-06-20,0,HOSE,Dịch vụ đầu tư
+69,CVT,Công ty Cổ phần CMC,2017-10-05,0,HOSE,Vật liệu xây dựng
+70,D2D,Công ty Cổ phần Phát triển Đô thị Công nghiệp Số 2 ,2009-08-14,0,HOSE,Đầu tư và phát triển bất động sản
+71,DAG,Công ty Cổ phần Tập đoàn Nhựa Đông Á,2010-04-08,0,HOSE,Vật liệu xây dựng
+72,DAH,Công ty cổ phần Tập đoàn Khách sạn Đông Á,2016-10-10,0,HOSE,Khách sạn
+73,DAT,Công ty cổ phần Đầu tư Du lịch và Phát triển Thuỷ sản,2015-11-05,0,HOSE,Công nghiệp đa ngành
+74,DBC,Công ty Cổ phần Tập đoàn Dabaco Việt Nam,2019-07-26,0,HOSE,Nông sản và thủy hải sản
+75,DBD,Công ty Cổ phần Dược - Trang thiết bị Y tế Bình Định (Bidiphar),2018-06-15,0,HOSE,Dược phẩm
+76,DBT,Công ty Cổ phần Dược phẩm Bến Tre,2020-10-28,0,HOSE,Dược phẩm
+77,DC4,Công ty cổ phần Xây dựng DIC Holdings,2020-10-20,0,HOSE,Xây dựng công trình
+78,DCL,Công ty Cổ phần Dược phẩm Cửu Long ,2008-09-17,0,HOSE,Dược phẩm
+79,DCM,Công ty Cổ phần Phân Bón Dầu khí Cà Mau,2015-03-31,0,HOSE,Hóa chất đặc biệt
+80,DGC,Công ty cổ phần Tập đoàn Hóa chất Đức Giang,2020-07-28,0,HOSE,Hóa chất cơ bản
+81,DGW,Công ty Cổ phần Thế giới Số,2015-08-03,0,HOSE,Bán lẻ tổng hợp
+82,DHA,Công ty Cổ phần Hoá An,2004-04-14,0,HOSE,Vật liệu xây dựng
+83,DHC,Công ty Cổ phần Đông Hải Bến Tre ,2009-07-23,0,HOSE,Giấy
+84,DHG,Công ty Cổ phần Dược Hậu Giang,2006-12-21,0,HOSE,Dược phẩm
+85,DHM,Công ty cổ phần thương mại và khai thác khoáng sản Dương Hiếu,2012-07-24,0,HOSE,Khai khoáng nói chung
+86,DIG,Tổng công ty Đầu tư phát triển Xây dựng,2009-08-19,0,HOSE,Đầu tư và phát triển bất động sản
+87,DLG,Công ty Cổ phần Tập đoàn Đức Long Gia Lai,2010-06-22,0,HOSE,"Đồ đạc, nội thất"
+88,DMC,Công ty Cổ phần Xuất nhập khẩu Y tế Domesco,2006-12-25,0,HOSE,Thiết bị y tế
+89,DPG,Công ty Cổ phần Tập đoàn Đạt Phương,2018-05-22,0,HOSE,Xây dựng công trình
+90,DPM,Tổng Công ty Cổ phần Phân bón và Hóa chất dầu khí,2007-11-05,0,HOSE,Hóa chất đặc biệt
+91,DPR,Công ty Cổ phần Cao su Đồng Phú,2007-11-30,0,HOSE,Hóa chất cơ bản
+92,DQC,Công ty Cổ phần Bóng đèn Điện Quang,2008-02-21,0,HOSE,Thiết bị điện
+93,DRC,Công ty Cổ phần Cao Su Đà Nẵng,2006-12-29,0,HOSE,Săm lốp
+94,DRH,Công ty Cổ phần DRH Holdings,2010-07-26,0,HOSE,Đầu tư và phát triển bất động sản
+95,DRL,Công ty Cổ phần Thủy Điện - Điện lực 3,2012-04-11,0,HOSE,Điện
+96,DSN,Công ty Cổ phần Công viên nước Đầm Sen,2010-10-26,0,HOSE,Dịch vụ vui chơi giải trí
+97,DTA,Công ty Cổ phần Đệ Tam,2010-07-16,0,HOSE,Đầu tư và phát triển bất động sản
+98,DTL,Công ty Cổ phần Đại Thiên Lộc ,2010-06-04,0,HOSE,Thép
+99,DTT,Công ty Cổ phần Kỹ nghệ Đô Thành ,2006-12-22,0,HOSE,Hóa chất đặc biệt
+100,DVP,Công ty Cổ phần Đầu tư và Phát triển cảng Đình Vũ,2009-12-01,0,HOSE,Dịch vụ vận tải
+101,DXG,Công ty Cổ phần Tập đoàn Đất Xanh,2009-12-22,0,HOSE,Đầu tư và phát triển bất động sản
+102,DXS,Công ty Cổ phần Dịch vụ Bất động sản Đất Xanh,2021-09-06,0,HOSE,Dịch vụ bất động sản
+103,DXV,Công ty Cổ phần ViCem Vật liệu xây dựng Đà Nẵng,2008-02-26,0,HOSE,Vật liệu xây dựng
+104,E1VFVN30,Quỹ ETF DCVFMVN30,2014-10-06,0,HOSE,Công cụ đầu tư cổ phần
+105,EIB,Ngân hàng Thương mại Cổ phần Xuất nhập khẩu Việt Nam,2009-10-27,0,HOSE,Ngân hàng
+106,ELC,Công ty Cổ phần Đầu tư Phát triển Công nghệ điện tử - Viễn thông ,2010-10-13,0,HOSE,Phần mềm
+107,EMC,Công ty Cổ phần Cơ Điện Thủ Đức,2012-11-29,0,HOSE,Thiết bị điện
+108,EVE,Công ty Cổ phần Everpia,2010-12-17,0,HOSE,Các sản phẩm gia dụng lâu bền
+109,EVG,Công ty cổ phần Tập đoàn Everland,2017-06-08,0,HOSE,Vật liệu xây dựng
+110,FCM,Công ty Cổ phần Khoáng sản FECON ,2013-05-15,0,HOSE,Khai khoáng nói chung
+111,FCN,Công ty Cổ phần FECON,2012-07-24,0,HOSE,Xây dựng công trình
+112,FDC,Công ty Cổ phần Ngoại thương và Phát triển Đầu tư Thành phố Hồ Chí Minh,2010-01-18,0,HOSE,Đầu tư và phát triển bất động sản
+113,FIR,Công ty Cổ phần Địa ốc First Real,2018-10-18,0,HOSE,Đầu tư và phát triển bất động sản
+114,FIT,Công ty cổ phần Tập đoàn F.I.T,2015-08-19,0,HOSE,Đầu tư và phát triển bất động sản
+115,FLC,Công ty Cổ phần Tập đoàn FLC,2013-08-06,0,HOSE,Đầu tư và phát triển bất động sản
+116,FMC,Công ty Cổ phần Thực phẩm Sao Ta ,2006-12-07,0,HOSE,Nông sản và thủy hải sản
+117,FPT,Công ty Cổ phần FPT,2006-12-13,0,HOSE,Dịch vụ máy tính
+118,FRT,Công ty cổ phần Bán lẻ Kỹ thuật số FPT,2018-04-26,0,HOSE,Cửa hàng chuyên dụng
+119,FTM,Công ty Cổ phần Đầu tư và Phát triển Đức Quân,2017-02-06,0,HOSE,"Đồ may mặc, trang sức, phụ kiện"
+120,FTS,Công ty Cổ phần Chứng khoán FPT,2017-01-13,0,HOSE,Dịch vụ đầu tư
+121,FUCTVGF2,Quỹ Đầu tư Tăng trưởng Thiên Việt 2,2018-09-26,0,HOSE,Công cụ đầu tư cổ phần
+122,FUCTVGF3,Quỹ đầu tư tăng trưởng Thiên Việt 3,2021-10-27,0,HOSE,Công cụ đầu tư cổ phần
+123,FUCVREIT,Quỹ đầu tư bất động sản Techcom Việt Nam,2017-02-27,0,HOSE,Công cụ đầu tư cổ phần
+124,FUEIP100,Quỹ ETF IPAAM VN100,2021-10-12,0,HOSE,Công cụ đầu tư cổ phần
+125,FUESSV30,Quỹ ETF SSIAM VN30,2020-08-18,0,HOSE,0
+126,FUESSV50,QUỸ ETF SSIAM VNX50,2017-10-24,0,HOSE,Công cụ đầu tư cổ phần
+127,FUESSVFL,QUỸ ETF SSIAM VNFIN LEAD,2020-03-18,0,HOSE,Công cụ đầu tư cổ phần
+128,FUEVFVND,Quỹ ETF DCVFMVN DIAMOND,2020-05-12,0,HOSE,Công cụ đầu tư cổ phần
+129,FUEVN100,Công ty Cổ phần Quản lý Quỹ VinaCapital,2020-07-21,0,HOSE,Công cụ đầu tư cổ phần
+130,GAB,CÔNG TY CỔ PHẦN ĐẦU TƯ KHAI KHOÁNG & QUẢN LÝ TÀI SẢN FLC,2019-07-11,0,HOSE,Vật liệu xây dựng
+131,GAS,Tổng Công ty Khí Việt Nam - CTCP,2012-05-21,0,HOSE,Gas
+132,GDT,Công ty Cổ phần Chế biến Gỗ Đức Thành ,2009-11-17,0,HOSE,"Đồ đạc, nội thất"
+133,GEG,Công ty Cổ phần Điện Gia Lai,2019-09-19,0,HOSE,Điện
+134,GEX,Công ty Cổ phần Tập đoàn Gelex,2018-01-18,0,HOSE,Thiết bị điện
+135,GIL,Công ty Cổ phần Sản Xuất Kinh Doanh Xuất Nhập Khẩu Bình Thạnh,2002-01-02,0,HOSE,"Đồ may mặc, trang sức, phụ kiện"
+136,GMC,Công ty cổ phần Garmex Sài Gòn,2006-12-22,0,HOSE,"Đồ may mặc, trang sức, phụ kiện"
+137,GMD,Công ty Cổ phần Gemadept ,2002-04-22,0,HOSE,Dịch vụ vận tải
+138,GSP,Công ty Cổ phần Vận tải Sản Phẩm khí Quốc Tế,2012-03-09,0,HOSE,Gas
+139,GTA,Công ty Cổ phần chế biến gỗ Thuận An,2007-07-23,0,HOSE,"Đồ đạc, nội thất"
+140,GTN,Công ty cổ phần GTNFOODS,2014-10-03,0,HOSE,Sản xuất thực phẩm
+141,GVR,Tập đoàn Công nghiệp Cao su Việt Nam - Công ty cổ phần,2020-03-17,0,HOSE,Hóa chất cơ bản
+142,HAG,Công ty Cổ phần Hoàng Anh Gia Lai,2008-12-22,0,HOSE,Đầu tư và phát triển bất động sản
+143,HAH,Công ty Cổ phần Vận tải và xếp dỡ Hải An ,2015-03-11,0,HOSE,Dịch vụ vận tải
+144,HAI,Công ty Cổ phần Nông dược H.A.I,2010-04-20,0,HOSE,Hóa chất đặc biệt
+145,HAP,Công ty Cổ phần Tập đoàn HAPACO,2021-09-06,0,HOSE,Giấy
+146,HAR,Công ty Cổ phần Đầu tư Thương mại Bất động sản An Dương Thảo Điền,2013-01-17,0,HOSE,Đầu tư và phát triển bất động sản
+147,HAS,Công ty Cổ phần Hacisco,2002-12-19,0,HOSE,Xây dựng công trình
+148,HAX,Công ty Cổ phần Dịch vụ Ô tô Hàng Xanh,2006-12-26,0,HOSE,Cửa hàng chuyên dụng
+149,HBC,Công ty Cổ phần Tập đoàn Xây dựng Hòa Bình,2006-12-27,0,HOSE,Xây dựng công trình
+150,HCD,Công ty cổ phần Đầu tư Sản xuất và Thương mại HCD,2016-07-04,0,HOSE,Vật liệu xây dựng
+151,HCM,Công ty Cổ phần Chứng khoán Thành phố Hồ Chí Minh,2009-05-19,0,HOSE,Dịch vụ đầu tư
+152,HDB,Ngân hàng Thương mại Cổ phần Phát triển Thành phố Hồ Chí Minh,2018-01-05,0,HOSE,Ngân hàng
+153,HDC,Công ty Cổ phần Phát triển nhà Bà Rịa-Vũng Tàu,2007-10-08,0,HOSE,Đầu tư và phát triển bất động sản
+154,HDG,Công ty Cổ phần Tập đoàn Hà Đô,2010-02-02,0,HOSE,Đầu tư và phát triển bất động sản
+155,HHP,Công ty cổ phần Giấy Hoàng Hà Hải Phòng,2021-03-03,0,HOSE,Giấy
+156,HHS,Công ty Cổ phần Đầu tư - Dịch vụ Hoàng Huy ,2012-02-15,0,HOSE,Ôtô
+157,HID,Công ty Cổ phần Halcom Việt Nam,2016-07-11,0,HOSE,Xây dựng công trình
+158,HII,Công ty Cổ phần An Tiến Industries,2017-06-22,0,HOSE,Khai khoáng nói chung
+159,HMC,Công ty Cổ phần Kim khí Thành phố Hồ Chí Minh - VNSTEEL,2006-12-21,0,HOSE,Thép
+160,HNG,Công ty Cổ phần Nông nghiệp Quốc tế Hoàng Anh Gia Lai,2015-07-20,0,HOSE,Nông sản và thủy hải sản
+161,HOT,Công ty Cổ phần Du lịch-Dịch vụ Hội An,2011-07-21,0,HOSE,Khách sạn
+162,HPG,Công ty Cổ phần Tập đoàn Hòa Phát,2007-11-15,0,HOSE,Thép
+163,HPX,Công ty cổ phần Đầu tư Hải Phát,2018-07-24,0,HOSE,Đầu tư và phát triển bất động sản
+164,HQC,Công ty Cổ phần Tư vấn - Thương mại - Dịch vụ Địa ốc Hoàng Quân,2010-10-20,0,HOSE,Đầu tư và phát triển bất động sản
+165,HRC,Công ty Cổ phần Cao su Hòa Bình,2006-12-26,0,HOSE,Hóa chất cơ bản
+166,HSG,Công ty Cổ phần Tập đoàn Hoa Sen,2008-12-05,0,HOSE,Thép
+167,HSL,CÔNG TY CỔ PHẦN ĐẦU TƯ PHÁT TRIỂN THỰC PHẨM HỒNG HÀ,2018-05-10,0,HOSE,Nông sản và thủy hải sản
+168,HT1,Công ty Cổ phần xi măng Hà Tiên 1,2007-11-13,0,HOSE,Vật liệu xây dựng
+169,HTI,Công ty Cổ phần Đầu tư Phát triển Hạ tầng IDICO,2010-12-20,0,HOSE,Xây dựng công trình
+170,HTL,Công ty Cổ phần Kỹ thuật và Ô tô Trường Long,2011-01-10,0,HOSE,Xe tải và phương tiện vận chuyển thương mại
+171,HTN,Công ty cổ phần Hưng Thịnh Incons,2018-11-12,0,HOSE,Xây dựng công trình
+172,HTV,Công ty cổ phần Logistics Vicem,2006-01-05,0,HOSE,Dịch vụ vận tải
+173,HU1,Công ty Cổ phần Đầu tư và Xây dựng HUD1,2011-11-03,0,HOSE,Xây dựng công trình
+174,HU3,Công ty Cổ phần Đầu tư và Xây dựng HUD3,2011-03-18,0,HOSE,Vật liệu xây dựng
+175,HUB,Công ty Cổ phần Xây lắp Thừa Thiên Huế,2019-02-26,0,HOSE,Xây dựng công trình
+176,HVH,Công ty cổ phần Đầu tư và Công nghệ HVC,2018-11-30,0,HOSE,"Thiết bị, đồ dùng phục vụ mục đích vui chơi giải trí"
+177,HVN,Tổng Công ty Hàng không Việt Nam - CTCP,2019-05-07,0,HOSE,Hàng không
+178,HVX,Công ty Cổ phần xi măng Vicem Hải Vân ,2010-09-28,0,HOSE,Vật liệu xây dựng
+179,IBC,Công ty cổ phần Đầu tư APAX HOLDINGS,2017-12-15,0,HOSE,Tài chính chuyên biệt
+180,ICT,Công ty cổ phần Viễn thông - Tin học Bưu điện,2020-01-15,0,HOSE,Thiết bị viễn thông
+181,IDI,Công ty Cổ phần Đầu tư và Phát triển Đa Quốc Gia IDI,2011-06-30,0,HOSE,Nông sản và thủy hải sản
+182,IJC,Công ty Cổ phần Phát triển Hạ tầng Kỹ thuật,2010-04-19,0,HOSE,Xây dựng công trình
+183,ILB,Công ty Cổ phần ICD Tân Cảng - Long Bình,2019-05-15,0,HOSE,Dịch vụ bất động sản
+184,IMP,Công ty Cổ phần dược phẩm Imexpharm,2006-12-04,0,HOSE,Dược phẩm
+185,ITA,Công ty Cổ phần Đầu tư và Công nghiệp Tân Tạo ,2006-11-15,0,HOSE,Đầu tư và phát triển bất động sản
+186,ITC,Công ty Cổ phần Đầu tư - Kinh doanh nhà,2009-10-19,0,HOSE,Đầu tư và phát triển bất động sản
+187,ITD,Công ty Cổ phần Công nghệ Tiên Phong,2011-12-20,0,HOSE,Phần mềm
+188,JVC,Công ty Cổ phần Thiết bị Y tế Việt Nhật,2011-06-21,0,HOSE,Thiết bị y tế
+189,KBC,Tổng Công ty Phát triển Đô thị Kinh Bắc - CTCP,2009-12-18,0,HOSE,Đầu tư và phát triển bất động sản
+190,KDC,Công ty Cổ phần tập đoàn Kido ,2005-12-12,0,HOSE,Sản xuất thực phẩm
+191,KDH,Công ty Cổ phần Đầu tư và Kinh doanh Nhà Khang Điền,2010-02-01,0,HOSE,Đầu tư và phát triển bất động sản
+192,KHG,Công ty Cổ phần Bất động sản Khải Hoàn Land,2021-09-06,0,HOSE,Dịch vụ bất động sản
+193,KHP,Công ty Cổ phần Điện lực Khánh Hòa ,2006-12-27,0,HOSE,Điện
+194,KMR,Công ty Cổ phần Mirae ,2008-06-30,0,HOSE,"Đồ may mặc, trang sức, phụ kiện"
+195,KOS,Công ty cổ phần Kosy,2019-07-22,0,HOSE,Đầu tư và phát triển bất động sản
+196,KPF,Công ty cổ phần Đầu tư tài chính Hoàng Minh,2016-03-02,0,HOSE,Vật liệu xây dựng
+197,KSB,Công ty Cổ phần Khoáng sản và Xây dựng Bình Dương,2010-01-20,0,HOSE,Khai khoáng nói chung
+198,L10,Công ty Cổ phần LILAMA 10,2007-12-25,0,HOSE,Xây dựng công trình
+199,LAF,Công ty Cổ phần Chế biến hàng xuất khẩu Long An,2021-09-06,0,HOSE,Sản xuất thực phẩm
+200,LBM,Công ty Cổ phần Khoáng sản và Vật liệu Xây dựng Lâm Đồng,2006-12-20,0,HOSE,Vật liệu xây dựng
+201,LCG,Công ty Cổ phần LICOGI 16,2008-11-18,0,HOSE,Xây dựng công trình
+202,LCM,Công ty Cổ phần Khai thác và Chế biến Khoáng sản Lào Cai ,2011-09-16,0,HOSE,Khai khoáng nói chung
+203,LDG,Công ty Cổ phần Đầu tư LDG ,2015-08-12,0,HOSE,Đầu tư và phát triển bất động sản
+204,LEC,Công ty Cổ phần Bất động sản Điện lực Miền Trung,2017-06-14,0,HOSE,Đầu tư và phát triển bất động sản
+205,LGC,Công ty Cổ phần đầu tư cầu đường CII,2006-12-27,0,HOSE,Xây dựng công trình
+206,LGL,Công ty Cổ phần Đầu tư và Phát triển Đô thị Long Giang,2009-10-08,0,HOSE,Đầu tư và phát triển bất động sản
+207,LHG,Công ty Cổ phần Long Hậu ,2010-03-23,0,HOSE,Đầu tư và phát triển bất động sản
+208,LIX,Công ty Cổ phần Bột giặt Lix,2009-12-10,0,HOSE,Sản phẩm gia dụng không lâu bền
+209,LM8,Công ty Cổ phần Lilama 18,2010-11-15,0,HOSE,Máy công nghiệp
+210,LPB,Ngân hàng Thương mại Cổ phần Bưu điện Liên Việt,2020-11-09,0,HOSE,Ngân hàng
+211,LSS,Công ty Cổ phần Mía đường Lam Sơn,2008-01-09,0,HOSE,Sản xuất thực phẩm
+212,MBB,Ngân hàng Thương mại Cổ phần Quân đội ,2011-11-01,0,HOSE,Ngân hàng
+213,MCG,Công ty Cổ phần Năng lượng và Bất Động sản MCG,2009-09-24,0,HOSE,Xây dựng công trình
+214,MCP,Công ty Cổ phần In và Bao bì Mỹ Châu,2006-12-28,0,HOSE,Bao bì & đóng gói
+215,MDG,Công ty Cổ phần Miền Đông,2011-01-12,0,HOSE,Xây dựng công trình
+216,MHC,Công ty Cổ phần MHC,2005-03-21,0,HOSE,Vận tải biển
+217,MIG,Tổng Công ty Cổ phần Bảo Hiểm Quân Đội,2021-01-21,0,HOSE,Bảo hiểm tài sản & thương vong
+218,MSB,Ngân hàng Thương mại Cổ phần Hàng Hải Việt Nam,2020-12-23,0,HOSE,Ngân hàng
+219,MSH,Công ty cổ phần May Sông Hồng,2018-11-28,0,HOSE,"Đồ may mặc, trang sức, phụ kiện"
+220,MSN,Công ty Cổ phần Tập đoàn Ma San,2009-11-05,0,HOSE,Sản xuất thực phẩm
+221,MWG,Công ty Cổ phần đầu tư thế giới di động,2014-07-14,0,HOSE,Bán lẻ tổng hợp
+222,NAF,Công ty Cổ phần Nafoods Group ,2015-10-07,0,HOSE,Nước ngọt
+223,NAV,Công ty Cổ phần Nam Việt ,2006-12-22,0,HOSE,Vật liệu xây dựng
+224,NBB,Công ty Cổ phần Đầu tư Năm Bảy Bảy,2009-02-18,0,HOSE,Đầu tư và phát triển bất động sản
+225,NCT,Công ty Cổ phần dịch vụ hàng hóa Nội Bài ,2015-01-08,0,HOSE,Dịch vụ giao nhận
+226,NHA,Tổng Công ty Đầu tư Phát triển Nhà và Đô thị Nam Hà Nội,2021-01-21,0,HOSE,Xây dựng công trình
+227,NHH,Công ty Cổ phần Nhựa Hà Nội,2019-12-12,0,HOSE,Hóa chất cơ bản
+228,NHT,Công ty Cổ phần Sản xuất và Thương mại Nam Hoa,2021-11-10,0,HOSE,Đồ chơi các loại
+229,NKG,Công ty Cổ phần Thép Nam Kim,2011-01-14,0,HOSE,Thép
+230,NLG,Công ty Cổ phần Đầu tư Nam Long,2013-04-08,0,HOSE,Đầu tư và phát triển bất động sản
+231,NNC,Công ty Cổ phần Đá Núi Nhỏ,2010-06-23,0,HOSE,Vật liệu xây dựng
+232,NSC,Công ty Cổ phần Giống cây trồng Trung Ương ,2021-09-06,0,HOSE,Nông sản và thủy hải sản
+233,NT2,Công ty Cổ phần Điện lực Dầu khí Nhơn Trạch 2 ,2015-06-12,0,HOSE,Điện
+234,NTL,Công ty Cổ phần Phát triển đô thị Từ Liêm,2007-12-21,0,HOSE,Đầu tư và phát triển bất động sản
+235,NVL,Công ty cổ phần Tập đoàn Đầu tư Địa ốc No Va,2016-12-28,0,HOSE,Đầu tư và phát triển bất động sản
+236,NVT,Công ty Cổ phần Bất động sản Du lịch Ninh Vân Bay,2010-05-07,0,HOSE,Đầu tư và phát triển bất động sản
+237,OCB,Ngân hàng Thương mại Cổ phần Phương Đông,2021-01-28,0,HOSE,Ngân hàng
+238,OGC,Công ty Cổ phần Tập đoàn Đại Dương ,2010-05-04,0,HOSE,Đầu tư và phát triển bất động sản
+239,OPC,Công ty Cổ phần Dược phẩm OPC ,2008-10-30,0,HOSE,Dược phẩm
+240,ORS,Công ty Cổ phần Chứng khoán Tiên Phong,2021-11-04,0,HOSE,Dịch vụ đầu tư
+241,PAC,Công ty Cổ phần Pin Ắc quy miền Nam,2006-12-12,0,HOSE,Thiết bị điện
+242,PAN,Công ty Cổ phần Tập đoàn PAN,2021-09-07,0,HOSE,Sản xuất thực phẩm
+243,PC1,Công ty cổ phần Xây lắp điện I,2016-11-16,0,HOSE,Xây dựng công trình
+244,PDN,Công ty Cổ phần Cảng Đồng Nai ,2011-10-26,0,HOSE,Dịch vụ vận tải
+245,PDR,Công ty Cổ phần Phát triển Bất động sản Phát Đạt ,2010-07-30,0,HOSE,Đầu tư và phát triển bất động sản
+246,PET,Tổng Công ty Cổ phần Dịch vụ Tổng hợp Dầu khí ,2007-09-12,0,HOSE,Cửa hàng chuyên dụng
+247,PGC,Tổng Công ty Gas Petrolimex - CTCP,2006-11-24,0,HOSE,Gas
+248,PGD,Công ty Cổ phần Phân phối khí Thấp áp Dầu khí Việt Nam,2009-11-26,0,HOSE,Gas
+249,PGI,Tổng Công ty Cổ phần Bảo hiểm Petrolimex ,2011-07-29,0,HOSE,Bảo hiểm đa ngành
+250,PHC,Công ty Cổ phần Xây dựng Phục Hưng Holdings,2018-10-03,0,HOSE,Xây dựng công trình
+251,PHR,Công ty Cổ phần Cao su Phước Hòa ,2009-08-18,0,HOSE,Hóa chất cơ bản
+252,PIT,Công ty Cổ phần Xuất nhập khẩu Petrolimex,2008-01-24,0,HOSE,Nông sản và thủy hải sản
+253,PJT,Công ty Cổ phần Vận tải Xăng dầu Đường Thủy Petrolimex,2006-12-28,0,HOSE,Dịch vụ vận tải
+254,PLP,Công ty cổ phần Sản xuất và Công nghệ Nhựa Pha Lê,2017-08-21,0,HOSE,Khai khoáng nói chung
+255,PLX,Tập đoàn Xăng dầu Việt Nam,2017-04-21,0,HOSE,Dầu khí tổng hợp
+256,PMG,Công ty Cổ phần Đầu tư và Sản xuất Petro Miền Trung,2018-01-25,0,HOSE,Gas
+257,PNC,Công ty Cổ phần văn hoá Phương Nam ,2005-07-11,0,HOSE,Cửa hàng chuyên dụng
+258,PNJ,Công ty Cổ phần Vàng bạc đá quý Phú Nhuận,2009-03-23,0,HOSE,Cửa hàng chuyên dụng
+259,POM,Công ty Cổ phần Thép Pomina,2010-04-20,0,HOSE,Thép
+260,POW,Tổng Công ty Điện lực Dầu khí Việt Nam – Công ty cổ phần,2019-01-14,0,HOSE,Điện
+261,PPC,Công ty Cổ phần Nhiệt điện Phả Lại ,2007-01-26,0,HOSE,Điện
+262,PSH,Công ty Cổ phần Thương mại Đầu tư Dầu khí Nam Sông Hậu,2020-06-24,0,HOSE,Dầu khí tổng hợp
+263,PTB,Công ty cổ phần Phú Tài,2011-07-22,0,HOSE,Vật liệu xây dựng
+264,PTC,Công ty Cổ phần Đầu tư và Xây dựng Bưu điện,2008-12-15,0,HOSE,Xây dựng công trình
+265,PTL,Công ty Cổ phần Đầu tư hạ tầng và Đô thị Dầu khí ,2010-09-22,0,HOSE,Vật liệu xây dựng
+266,PVD,Tổng Công ty Cổ phần Khoan và Dịch vụ khoan dầu khí,2006-12-05,0,HOSE,Dịch vụ và Thiết bị dầu khí
+267,PVT,Tổng Công ty Cổ phần Vận tải dầu khí,2007-12-10,0,HOSE,Vận tải biển
+268,PXI,Công ty Cổ phần Xây dựng Công nghiệp và Dân dụng Dầu khí,2010-06-21,0,HOSE,Xây dựng công trình
+269,PXS,Công ty Cổ phần Kết cấu Kim loại và Lắp máy Dầu khí,2010-06-02,0,HOSE,Xây dựng công trình
+270,QBS,Công ty Cổ phần Xuất nhập khẩu Quảng Bình,2021-09-06,0,HOSE,Hóa chất đặc biệt
+271,QCG,Công ty Cổ phần Quốc Cường Gia Lai ,2010-08-09,0,HOSE,Đầu tư và phát triển bất động sản
+272,RAL,Công ty Cổ phần Bóng đèn Phích nước Rạng Đông ,2006-12-06,0,HOSE,Thiết bị điện
+273,RDP,Công ty cổ phần Rạng Đông Holding,2009-09-22,0,HOSE,Bao bì & đóng gói
+274,REE,Công ty Cổ phần Cơ điện lạnh,2000-07-28,0,HOSE,Dịch vụ tiện ích tổng hợp
+275,RIC,Công ty Cổ phần Quốc tế Hoàng Gia,2007-07-31,0,HOSE,Sòng bạc
+276,ROS,Công ty cổ phần Xây dựng FLC Faros,2016-09-01,0,HOSE,Xây dựng công trình
+277,S4A,Công ty Cổ phần Thủy điện Sê San 4A,2016-05-27,0,HOSE,Điện tái tạo
+278,SAB,Tổng Công ty Cổ phần Bia - Rượu - Nước giải khát Sài Gòn,2016-12-06,0,HOSE,Sản xuất bia
+279,SAM,Công ty Cổ phần SAM HOLDINGS,2000-07-28,0,HOSE,Thiết bị viễn thông
+280,SAV,Công ty Cổ phần Hợp tác kinh tế và Xuất nhập khẩu SAVIMEX,2002-05-09,0,HOSE,"Đồ đạc, nội thất"
+281,SBA,Công ty Cổ phần Sông Ba,2010-06-01,0,HOSE,Điện
+282,SBT,Công ty Cổ phần Thành Thành Công - Biên Hòa,2008-02-25,0,HOSE,Sản xuất thực phẩm
+283,SBV,Công ty Cổ phần Siam Brothers Việt Nam,2017-05-16,0,HOSE,Vật liệu xây dựng
+284,SC5,Công ty Cổ phần Xây dựng số 5 ,2007-10-18,0,HOSE,Xây dựng công trình
+285,SCD,Công ty Cổ phần Nước Giải khát Chương Dương (CDBECO),2006-12-25,0,HOSE,Nước ngọt
+286,SCR,Công ty Cổ phần Địa ốc Sài Gòn Thương Tín,2016-11-18,0,HOSE,Đầu tư và phát triển bất động sản
+287,SCS,Công ty Cổ phần Dịch vụ Hàng hóa Sài Gòn,2018-08-03,0,HOSE,Dịch vụ vận tải
+288,SFC,Công ty Cổ phần Nhiên Liệu Sài Gòn ,2004-09-21,0,HOSE,Cửa hàng chuyên dụng
+289,SFG,Công ty Cổ phần phân bón Miền Nam,2014-12-01,0,HOSE,Hóa chất đặc biệt
+290,SFI,Công ty Cổ phần Đại lý Vận tải SAFI,2006-12-29,0,HOSE,Vận tải biển
+291,SGN,Công ty cổ phần Phục vụ Mặt đất Sài Gòn,2018-08-01,0,HOSE,Dịch vụ vận tải
+292,SGR,Công ty Cổ phần Tổng Công ty Cổ phần Địa Ốc Sài Gòn,2018-01-15,0,HOSE,Đầu tư và phát triển bất động sản
+293,SGT,Công ty Cổ phần Công nghệ Viễn thông Sài Gòn,2008-01-18,0,HOSE,Phần mềm
+294,SHA,Công ty Cổ phần Sơn Hà Sài Gòn,2016-11-30,0,HOSE,Các sản phẩm gia dụng lâu bền
+295,SHB,Ngân hàng Thương mại Cổ phần Sài Gòn - Hà Nội ,2021-10-11,0,HOSE,Ngân hàng
+296,SHI,Công ty Cổ phần Quốc tế Sơn Hà,2009-12-30,0,HOSE,Các sản phẩm gia dụng lâu bền
+297,SHP,Công ty Cổ phần Thủy điện miền Nam ,2014-07-21,0,HOSE,Điện
+298,SII,Công ty Cổ phần Hạ tầng Nước Sài Gòn,2012-09-12,0,HOSE,Đầu tư và phát triển bất động sản
+299,SJD,Công ty Cổ phần Thủy Điện Cần Đơn,2006-12-25,0,HOSE,Điện
+300,SJF,Công Ty Cổ phần Đầu tư Sao Thái Dương,2017-07-05,0,HOSE,Nông sản và thủy hải sản
+301,SJS,Công ty Cổ phần Đầu tư Phát triển Đô thị và Khu công nghiệp Sông Đà,2006-07-06,0,HOSE,Đầu tư và phát triển bất động sản
+302,SKG,Công ty Cổ phần Tàu cao tốc Superdong – Kiên Giang ,2014-07-08,0,HOSE,Vận tải biển
+303,SMA,Công ty Cổ phần Thiết bị phụ tùng Sài Gòn,2010-10-19,0,HOSE,Công nghiệp đa ngành
+304,SMB,Công ty Cổ phần Bia Sài Gòn - Miền Trung ,2018-08-03,0,HOSE,Nước ngọt
+305,SMC,Công ty Cổ phần đầu tư thương mại SMC ,2006-10-30,0,HOSE,Thép
+306,SPM,Công ty Cổ phần S.P.M ,2010-05-21,0,HOSE,Dược phẩm
+307,SRC,Công ty Cổ phần Cao su Sao vàng,2009-10-07,0,HOSE,Săm lốp
+308,SRF,Công ty cổ phần Searefico,2009-10-21,0,HOSE,Máy công nghiệp
+309,SSB,Ngân hàng Thương mại Cổ phần Đông Nam Á,2021-03-24,0,HOSE,Ngân hàng
+310,SSC,Công ty Cổ phần Giống cây trồng miền Nam ,2021-09-06,0,HOSE,Nông sản và thủy hải sản
+311,SSI,Công ty Cổ phần chứng khoán SSI,2007-10-29,0,HOSE,Dịch vụ đầu tư
+312,ST8,Công ty Cổ phần Siêu Thanh ,2007-12-18,0,HOSE,Thiết bị điện tử văn phòng
+313,STB,Ngân hàng Thương mại Cổ phần Sài Gòn Thương Tín,2006-07-12,0,HOSE,Ngân hàng
+314,STG,Công ty Cổ phần Kho vận miền Nam,2010-03-02,0,HOSE,Dịch vụ vận tải
+315,STK,Công ty Cổ phần Sợi thế kỷ ,2015-09-30,0,HOSE,Hóa chất cơ bản
+316,SVC,Công ty Cổ phần dịch vụ tổng hợp Sài Gòn ,2009-06-01,0,HOSE,Cửa hàng chuyên dụng
+317,SVD,Công ty Cổ phần Đầu tư và Thương mại Vũ Đăng,2021-02-02,0,HOSE,"Đồ may mặc, trang sức, phụ kiện"
+318,SVI,Công ty Cổ phần Bao bì Biên Hòa,2012-03-12,0,HOSE,Bao bì & đóng gói
+319,SVT,Công ty Cổ phần Công nghệ Sài Gòn Viễn Đông,2011-10-05,0,HOSE,Hoạt động xuất bản
+320,SZC,Công ty cổ phần Sonadezi Châu Đức,2019-01-15,0,HOSE,Xây dựng công trình
+321,SZL,Công ty Cổ phần Sonadezi Long Thành,2008-09-09,0,HOSE,Đầu tư và phát triển bất động sản
+322,TAC,Công ty Cổ phần Dầu thực vật Tường An,2006-12-26,0,HOSE,Sản xuất thực phẩm
+323,TBC,Công ty Cổ phần Thủy điện Thác Bà,2009-10-19,0,HOSE,Điện
+324,TCB,Ngân hàng Thương mại Cổ phần Kỹ Thương Việt Nam - Techcombank,2018-06-04,0,HOSE,Ngân hàng
+325,TCD,Công ty Cổ phần Đầu tư Phát triển Công nghiệp và Vận tải,2017-05-26,0,HOSE,Xây dựng công trình
+326,TCH,Công ty Cổ phần Đầu tư Dịch vụ Tài chính Hoàng Huy,2016-10-05,0,HOSE,Đầu tư và phát triển bất động sản
+327,TCL,Công ty Cổ phần Đại lý giao nhận Vận tải xếp dỡ Tân Cảng ,2009-12-24,0,HOSE,Dịch vụ vận tải
+328,TCM,Công ty Cổ phần Dệt may - Đầu tư - Thương mại Thành Công ,2007-10-15,0,HOSE,"Đồ may mặc, trang sức, phụ kiện"
+329,TCO,Công ty Cổ phần Vận tải đa phương thức Duyên Hải ,2012-02-27,0,HOSE,Vận tải biển
+330,TCR,Công ty Cổ phần Công Nghiệp Gốm sứ Taicera ,2006-12-29,0,HOSE,Vật liệu xây dựng
+331,TCT,Công ty Cổ phần Cáp treo Núi Bà Tây Ninh ,2016-03-22,0,HOSE,Dịch vụ vui chơi giải trí
+332,TDC,Công ty Cổ phần Kinh doanh và Phát triển Bình Dương,2010-05-04,0,HOSE,Vật liệu xây dựng
+333,TDG,Công ty Cổ phần Đầu tư TDG GLOBAL,2017-06-15,0,HOSE,Dầu khí tổng hợp
+334,TDH,Công ty Cổ phần Phát triển nhà Thủ Đức,2006-12-14,0,HOSE,Đầu tư và phát triển bất động sản
+335,TDM,Công ty cổ phần Nước Thủ Dầu Một,2018-10-24,0,HOSE,Nước
+336,TDP,Công ty cổ phần Thuận Đức ECO,2020-10-12,0,HOSE,Hóa chất đặc biệt
+337,TDW,Công ty Cổ phần Cấp nước Thủ Đức,2010-11-11,0,HOSE,Nước
+338,TEG,Công ty Cổ phần Năng lượng và Bất động sản Trường Thành,2018-03-09,0,HOSE,Chế phẩm từ gỗ
+339,TGG,Công ty cổ phần Louis Capital,2018-05-25,0,HOSE,Xây dựng công trình
+340,THG,Công ty Cổ phần Đầu tư và Xây dựng Tiền Giang ,2011-07-28,0,HOSE,Vật liệu xây dựng
+341,THI,Công ty Cổ phần Thiết bị điện,2021-09-06,0,HOSE,Thiết bị điện
+342,TIP,Công ty Cổ phần Phát triển Khu công nghiệp Tín Nghĩa,2016-06-06,0,HOSE,Quỹ tín thác bất động sản đa dạng
+343,TIX,Công ty Cổ phần Sản xuất Kinh doanh Xuất nhập khẩu Dịch vụ và Đầu tư Tân Bình ,2009-11-25,0,HOSE,Đầu tư và phát triển bất động sản
+344,TLD,Công ty Cổ phần Đầu tư Xây dựng và Phát triển Đô thị Thăng Long,2017-12-07,0,HOSE,Vật liệu xây dựng
+345,TLG,Công ty Cổ phần Tập đoàn Thiên Long,2010-03-26,0,HOSE,Sản phẩm gia dụng không lâu bền
+346,TLH,Công ty Cổ phần Tập đoàn thép Tiến Lên,2010-03-16,0,HOSE,Thép
+347,TMP,Công ty Cổ phần Thủy điện Thác Mơ,2009-06-18,0,HOSE,Điện
+348,TMS,CÔNG TY CỔ PHẦN TRANSIMEX,2000-08-04,0,HOSE,Dịch vụ vận tải
+349,TMT,Công ty Cổ phần Ô tô TMT ,2010-01-22,0,HOSE,Ôtô
+350,TN1,CÔNG TY CỔ PHẦN THƯƠNG MẠI DỊCH VỤ TNS HOLDINGS,2019-05-30,0,HOSE,Dịch vụ bất động sản
+351,TNA,Công ty Cổ phần Thương Mại Xuất Nhập Khẩu Thiên Nam,2005-07-20,0,HOSE,Bán lẻ tổng hợp
+352,TNC,Công ty Cổ phần Cao su Thống Nhất,2007-08-22,0,HOSE,Hóa chất cơ bản
+353,TNH,Công ty Cổ phần Bệnh viện Quốc tế Thái Nguyên,2021-01-06,0,HOSE,Dịch vụ y tế
+354,TNI,Công ty Cổ phần Tập đoàn Thành Nam,2017-05-29,0,HOSE,Kim loại màu
+355,TNT,Công ty cổ phần tập đoàn TNT,2010-05-21,0,HOSE,Đầu tư và phát triển bất động sản
+356,TPB,Ngân hàng Thương mại cổ phần Tiên Phong,2018-04-19,0,HOSE,Ngân hàng
+357,TPC,Công ty Cổ phần Nhựa Tân Đại Hưng,2007-11-28,0,HOSE,Bao bì & đóng gói
+358,TRA,Công ty Cổ phần Traphaco ,2008-11-26,0,HOSE,Dược phẩm
+359,TRC,Công ty Cổ phần Cao su Tây Ninh,2007-07-24,0,HOSE,Hóa chất cơ bản
+360,TSC,Công ty Cổ phần Vật tư kỹ thuật nông nghiệp Cần Thơ,2007-10-04,0,HOSE,Nông sản và thủy hải sản
+361,TTA,Công ty Cổ phần Đầu tư Xây dựng và Phát triển Trường Thành,2020-09-18,0,HOSE,Điện
+362,TTB,Công ty Cổ phần Tập đoàn Tiến Bộ,2018-08-17,0,HOSE,Vật liệu xây dựng
+363,TTE,Công ty cổ phần Đầu tư Năng lượng Trường Thịnh,2018-12-10,0,HOSE,Điện
+364,TTF,Công ty Cổ phần Tập đoàn Kỹ nghệ gỗ Trường Thành ,2008-02-18,0,HOSE,"Đồ đạc, nội thất"
+365,TV2,Công ty Cổ phần Tư vấn Xây dựng điện 2,2019-06-06,0,HOSE,Dịch vụ hỗ trợ kinh doanh
+366,TVB,Công ty Cổ phần Chứng khoán Trí Việt,2021-09-06,0,HOSE,Dịch vụ đầu tư
+367,TVS,Công ty Cổ phần Chứng Khoán Thiên Việt,2015-01-15,0,HOSE,Dịch vụ đầu tư
+368,TVT,Tổng công ty Việt Thắng - CTCP,2017-07-17,0,HOSE,"Đồ may mặc, trang sức, phụ kiện"
+369,TYA,Công ty Cổ phần Dây và Cáp điện Taya Việt Nam ,2006-02-15,0,HOSE,Thiết bị viễn thông
+370,UDC,Công ty Cổ phần Xây dựng và Phát triển đô thị Bà Rịa - Vũng Tàu,2010-07-05,0,HOSE,Xây dựng công trình
+371,UIC,Công ty Cổ phần Đầu tư phát triển Nhà và Đô thị IDICO ,2007-11-12,0,HOSE,Xây dựng công trình
+372,VAF,Công ty Cổ phần Phân lân nung chảy Văn Điển,2015-06-23,0,HOSE,Hóa chất đặc biệt
+373,VCA,Công ty Cổ phần Thép VICASA - VNSTEEL,2021-03-10,0,HOSE,Thép
+374,VCB,Ngân hàng Thương mại Cổ phần Ngoại thương Việt Nam ,2009-06-30,0,HOSE,Ngân hàng
+375,VCF,Công ty Cổ phần Vinacafé Biên Hòa,2011-01-28,0,HOSE,Nước ngọt
+376,VCG,Tổng Công ty Cổ phần Xuất nhập khẩu và xây dựng Việt Nam ,2020-12-29,0,HOSE,Xây dựng công trình
+377,VCI,Công ty Cổ phần Chứng khoán Bản Việt,2017-07-07,0,HOSE,Dịch vụ đầu tư
+378,VDP,Công ty Cổ phần Dược phẩm Trung ương Vidipha,2017-08-15,0,HOSE,Dược phẩm
+379,VDS,Công ty Cổ phần Chứng khoán Rồng Việt (VDSC),2017-07-19,0,HOSE,Dịch vụ đầu tư
+380,VFG,Công ty Cổ phần Khử trùng Việt Nam ,2021-09-06,0,HOSE,Hóa chất đặc biệt
+381,VGC,Tổng Công ty Viglacera - CTCP,2019-05-29,0,HOSE,Vật liệu xây dựng
+382,VHC,Công ty Cổ phần Vĩnh Hoàn,2007-12-24,0,HOSE,Nông sản và thủy hải sản
+383,VHM,Công ty cổ phần Vinhomes,2018-05-17,0,HOSE,Đầu tư và phát triển bất động sản
+384,VIB,Ngân hàng Thương mại Cổ phần Quốc tế Việt Nam,2020-11-10,0,HOSE,Ngân hàng
+385,VIC,Tập đoàn VINGROUP - CTCP,2007-09-19,0,HOSE,Đầu tư và phát triển bất động sản
+386,VID,Công ty Cổ phần Đầu tư Phát triển Thương mại Viễn Đông,2006-12-25,0,HOSE,Giấy
+387,VIP,Công ty Cổ phần Vận tải Xăng dầu VIPCO,2006-12-21,0,HOSE,Vận tải biển
+388,VIS,Công ty Cổ phần Thép Việt Ý,2006-12-25,0,HOSE,Thép
+389,VIX,CÔNG TY CỔ PHẦN CHỨNG KHOÁN VIX,2021-01-08,0,HOSE,Dịch vụ đầu tư
+390,VJC,Công ty cổ phần Hàng không VIETJET,2017-02-28,0,HOSE,Hàng không
+391,VMD,Công ty Cổ phần Y Dược phẩm Vimedimex ,2010-09-30,0,HOSE,Bán lẻ dược phẩm
+392,VND,Công ty Cổ phần Chứng khoán VNDIRECT,2021-09-06,0,HOSE,Dịch vụ đầu tư
+393,VNE,Tổng Công ty Cổ phần Xây dựng điện Việt Nam,2007-08-09,0,HOSE,Xây dựng công trình
+394,VNG,Công ty Cổ phần Du lịch Thành Thành Công,2009-12-17,0,HOSE,Khách sạn
+395,VNL,Công ty Cổ phần LOGISTICS VINALINK ,2009-08-17,0,HOSE,Vận tải biển
+396,VNM,Công ty Cổ phần Sữa Việt Nam,2006-01-19,0,HOSE,Sản xuất thực phẩm
+397,VNS,Công ty Cổ phần Ánh Dương Việt Nam ,2008-07-29,0,HOSE,Du lịch
+398,VOS,Công ty Cổ phần Vận tải biển Việt Nam ,2010-09-08,0,HOSE,Vận tải biển
+399,VPB,Ngân hàng Thương mại Cổ phần Việt Nam thịnh vượng,2017-08-17,0,HOSE,Ngân hàng
+400,VPD,Công ty Cổ phần Phát triển Điện Lực Việt Nam,2018-01-22,0,HOSE,Điện
+401,VPG,Công ty cổ phần Đầu tư Thương mại Xuất nhập khẩu Việt Phát,2018-01-18,0,HOSE,Than đá
+402,VPH,Công ty Cổ phần Vạn Phát Hưng ,2009-09-09,0,HOSE,Đầu tư và phát triển bất động sản
+403,VPI,Công ty Cổ phần Đầu tư Văn Phú - Invest,2018-06-29,0,HOSE,Đầu tư và phát triển bất động sản
+404,VPS,Công ty Cổ phần thuốc sát trùng Việt Nam ,2015-08-19,0,HOSE,Hóa chất đặc biệt
+405,VRC,Công ty cổ phần Bất động sản và Đầu tư VRC,2010-07-26,0,HOSE,Đầu tư và phát triển bất động sản
+406,VRE,Công ty Cổ phần Vincom Retail,2017-11-06,0,HOSE,Đầu tư và phát triển bất động sản
+407,VSC,Công ty Cổ phần Container Việt Nam ,2008-01-09,0,HOSE,Dịch vụ vận tải
+408,VSH,Công ty Cổ phần Thủy điện Vĩnh Sơn – Sông Hinh,2006-07-18,0,HOSE,Điện
+409,VSI,Công ty Cổ phần đầu tư và xây dựng cấp thoát nước,2010-12-24,0,HOSE,Xây dựng công trình
+410,VTB,Công ty Cổ phần Viettronics Tân Bình,2006-12-27,0,HOSE,Đồ điện tử
+411,VTO,Công ty Cổ phần Vận tải xăng dầu VITACO,2007-10-09,0,HOSE,Vận tải biển
+412,YBM,Công ty cổ phần Khoáng sản công nghiệp Yên Bái,2018-08-21,0,HOSE,Hóa chất đặc biệt
+413,YEG,Công ty cổ phần Tập đoàn Yeah1,2018-06-26,0,HOSE,Các hãng truyền thông
