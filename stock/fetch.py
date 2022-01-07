@@ -32,7 +32,7 @@ class DataLoader():
         stock_data = loader.batch_download()
 
         if self.minimal:
-            minimal_data = stock_data[['open','close','volume']]
+            minimal_data = stock_data[['high','low','open','close', 'volume']]
             return minimal_data
         else:
             return stock_data

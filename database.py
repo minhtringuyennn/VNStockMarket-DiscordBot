@@ -39,17 +39,17 @@ airline     = ['ACV', 'ASG', 'AST', 'CIA', 'HVN', 'MAS', 'NCS', 'NCT', 'SAS', 'S
 
 ## Conver stock_list.json to smaller .csv files
 
-p = Path(r'stock_list.json')
+# p = Path(r'stock_list.json')
 
-with p.open('r', encoding='utf-8') as f:
-    data = json.loads(f.read())
+# with p.open('r', encoding='utf-8') as f:
+#     data = json.loads(f.read())
 
-file_name = ['HOSE_List', 'HNX_List', 'UPCOM_List', 'VN30_List', 'DuocPham_List', 'Cang_List', 'DetMay_List', 'NangLuong_List', 'XayDung_List', 'BDSNHAO_List', 'BDSCN_List', 'ThuySan_List', 'PhanBonHoaChat_List', 'BanLe_List', 'NganHang_List', 'DauKhi_List', 'Thep_List', 'ChungKhoan_List', 'HangKhong_List']
+# file_name = ['HOSE_List', 'HNX_List', 'UPCOM_List', 'VN30_List', 'DuocPham_List', 'Cang_List', 'DetMay_List', 'NangLuong_List', 'XayDung_List', 'BDSNHAO_List', 'BDSCN_List', 'ThuySan_List', 'PhanBonHoaChat_List', 'BanLe_List', 'NganHang_List', 'DauKhi_List', 'Thep_List', 'ChungKhoan_List', 'HangKhong_List']
 
-idx = 0
-for name in file_name:
-    df = pd.json_normalize(data[idx]['stocks'])
-    df.drop('listedDate', axis =1, inplace = True)
-    df.drop('delistedDate', axis =1, inplace = True)
-    df.to_csv(f'./database/{name}.csv', index=False, encoding='utf-8')
-    idx += 1
+# idx = 0
+# for name in file_name:
+#     df = pd.json_normalize(data[idx]['stocks'])
+#     df.drop('listedDate', axis =1, inplace = True)
+#     df.drop('delistedDate', axis =1, inplace = True)
+#     df.to_csv(f'./database/{name}.csv', index=False, encoding='utf-8')
+#     idx += 1
