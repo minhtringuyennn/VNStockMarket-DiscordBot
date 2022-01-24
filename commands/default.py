@@ -1,11 +1,7 @@
-from discord.ext import commands
-from discord.ext import tasks
-import configparser
-import discord
-import os
-import time
-import asyncio
+import os, discord, configparser, time, asyncio
 from datetime import datetime
+from discord.ext import tasks
+from discord.ext import commands
 
 class DefaultCommands(commands.Cog):
     def __init__(self, bot):
@@ -37,7 +33,7 @@ class DefaultCommands(commands.Cog):
     @commands.command(pass_context=True)
     async def help(self, ctx): 
         embed = discord.Embed(
-            coulour=discord.Color.red()
+            color=discord.Color.red()
         )
         embed.set_author(name='Thông tin nhanh:')
         embed.add_field(name='Về bot',

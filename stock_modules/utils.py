@@ -1,37 +1,27 @@
+# Import python modules
+import re
+import numpy as np
+import pandas as pd
 from datetime import datetime 
 from datetime import timedelta
-import numpy as np
-import matplotlib.pyplot as plt
-import matplotlib.dates as mdates
-from mplfinance.original_flavor import candlestick_ohlc
-import pandas as pd
-import re
+
+def get_today_date():
+    today = datetime.now()
+    today = today.strftime('%Y-%m-%d')
+    return today
+
+# Return last year date
+def get_last_year_date():
+    today = datetime.now()
+    last_year = today - timedelta(days=365)
+    last_year = last_year.strftime('%Y-%m-%d')
+    return last_year
 
 def convert_date(text, date_type = '%Y-%m-%d'):
     return datetime.strptime(text, date_type)
 
 def convert_text_dateformat(text, origin_type = '%Y-%m-%d', new_type = '%Y-%m-%d'):
     return convert_date(text, origin_type).strftime(new_type)
-
-def weekday_candlestick(ax, ohlc_data, fmt='%b %d', freq=1, **kwargs):
-    # Convert data to numpy array
-    ohlc_data_arr = np.array(ohlc_data)
-    ohlc_data_arr2 = np.hstack(
-        [np.arange(ohlc_data_arr[:,0].size)[:,np.newaxis], ohlc_data_arr[:,1:]])
-    ndays = ohlc_data_arr2[:,0]
-    
-    # Convert matplotlib date numbers to strings based on `fmt`
-    dates = mdates.num2date(ohlc_data_arr[:,0])
-    date_strings = []
-    for date in dates:
-        date_strings.append(date.strftime(fmt))
-
-    # # Plot candlestick chart
-    candlestick_ohlc(ax, ohlc_data_arr2, colorup='g', colordown='r', width=0.8, **kwargs)
-
-    # Format x axis
-    ax.set_xticks(ndays[::freq])
-    ax.set_xticklabels(date_strings[::freq], rotation=45, ha='center')
 
 def calc_break_day(data, start_date, end_date):
     dt_chart = data['date'].index

@@ -3,6 +3,7 @@ import numpy as np
 import pandas as pd
 import matplotlib as mpl
 import matplotlib.pyplot as plt
+import matplotlib.dates as mdates
 
 from mplfinance.original_flavor import candlestick_ohlc
 from matplotlib.pylab import date2num
@@ -73,7 +74,7 @@ def drawFigure(data, Symbol, length, drawMA=True, drawBB=True, drawVol=True, dra
         data_list.append(datas)
 
     # Draw a candle chart
-    utils.weekday_candlestick(ax_canddle, data_list)
+    weekday_candlestick(ax_canddle, data_list)
 
     # Draw monving average
     if drawMA == True:
@@ -138,4 +139,25 @@ def drawFigure(data, Symbol, length, drawMA=True, drawBB=True, drawVol=True, dra
         ax_macd.axes.get_xaxis().set_visible(False)
         ax_macd.legend()
 
-    fig.savefig("index.png")
+    fig.savefig("./images/index.png")
+    
+# Custom plot figure
+def weekday_candlestick(ax, ohlc_data, fmt='%b %d', freq=1, **kwargs):
+    # Convert data to numpy array
+    ohlc_data_arr = np.array(ohlc_data)
+    ohlc_data_arr2 = np.hstack(
+        [np.arange(ohlc_data_arr[:,0].size)[:,np.newaxis], ohlc_data_arr[:,1:]])
+    ndays = ohlc_data_arr2[:,0]
+    
+    # Convert matplotlib date numbers to strings based on `fmt`
+    dates = mdates.num2date(ohlc_data_arr[:,0])
+    date_strings = []
+    for date in dates:
+        date_strings.append(date.strftime(fmt))
+
+    # Plot candlestick chart
+    candlestick_ohlc(ax, ohlc_data_arr2, colorup='g', colordown='r', width=0.8, **kwargs)
+
+    # Format x axis
+    ax.set_xticks(ndays[::freq])
+    ax.set_xticklabels(date_strings[::freq], rotation=45, ha='center')
