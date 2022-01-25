@@ -5,6 +5,15 @@ import pandas as pd
 from datetime import datetime 
 from datetime import timedelta
 
+def format_value(val):
+    return "{:,.0f}".format(float(val))
+
+def format_percent(val):
+    return "{:,.2f}%".format(float(val) * 100.0)
+
+def get_current_time():
+    return datetime.now().strftime("%H:%M:%S")
+
 def get_today_date():
     today = datetime.now()
     today = today.strftime('%Y-%m-%d')

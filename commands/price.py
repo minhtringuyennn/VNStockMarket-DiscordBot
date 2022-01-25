@@ -22,33 +22,74 @@ class Price(commands.Cog):
         description='Check symbol price.'
     )
     async def getStockPrice(self, ctx, *, symbol):
-        data = fetch.call_api_vietstock(symbol.upper())
+        data = fetch.fetchCurrentPrice(symbol.upper())
+        print(data)
         
         mess = ""
-        if data["ColorId"] == 2:
+        
+        changeRate = (1.0 - (float(data['PriceBasic']) / float(data['PriceCurrent']))) * 100.0
+        changeRate = round(changeRate, 2)
+        
+        changePrice = float(data['PriceCurrent']) - float(data['PriceBasic'])
+        # changePrice = round(changePrice, 2)
+        
+        # Currently for HOSE market only
+        if changeRate >= 6.9:
             mess = random.choice(constants.MESS_CE)
-        if data["ColorId"] == -2:
+            embed = discord.Embed(color=constants.COLOR_CE)
+        elif changeRate <= -6.9:
             mess = random.choice(constants.MESS_FL)
-        if data["ColorId"] == 1:
+            embed = discord.Embed(color=constants.COLOR_FL)
+        elif changeRate > 0.0:
             mess = random.choice(constants.MESS_UP)
-        if data["ColorId"] == -1:
+            embed = discord.Embed(color=constants.COLOR_UP)
+        elif changeRate < 0.0:
             mess = random.choice(constants.MESS_DOWN)
-        if data["ColorId"] == 0:
+            embed = discord.Embed(color=constants.COLOR_DOWN)
+        elif changeRate == 0.0:
             mess = random.choice(constants.MESS_TC)
+            embed = discord.Embed(color=constants.COLOR_TC)
             
-        price_str = str(data["LastPrice"])
-        percent_change = str(data["PerChange"])
+        price_str = str(data["PriceCurrent"])
         mess = mess.replace("#code#",symbol.upper()).replace("#price#", price_str)
         
-        await ctx.respond("Giá của " + symbol.upper() + " là: " + str(data["LastPrice"]) + " tăng/giảm: " + percent_change + "%" + "\n" + mess, delete_after=self.__TIMEOUT)
+        embed.set_author(name=f'Giá của {symbol.upper()} tại {utils.get_current_time()} ngày {utils.get_today_date()}:')
+        embed.add_field(name='Giá: ', value=f'{utils.format_value(data["PriceCurrent"])}', inline=True)
+        embed.add_field(name='% thay đổi với hôm trước: ', value=f'{changeRate}%', inline=True)
+        embed.add_field(name='Giá thay đổi với hôm trước: ', value=f'{utils.format_value(changePrice)}', inline=True)
+        
+        embed.add_field(name='KL Mua chủ động: ', value=f'{utils.format_value(data["TotalActiveBuyVolume"])}', inline=True)
+        embed.add_field(name='KL Bán chủ động: ', value=f'{utils.format_value(data["TotalActiveSellVolume"])}', inline=True)
+        embed.add_field(name='Tổng KLGD: ', value=f'{utils.format_value(data["TotalVolume"])}', inline=True)
+        
+        embed.add_field(name='KL nước ngoài Mua: ', value=f'{utils.format_value(data["BuyForeignQuantity"])}', inline=True)
+        embed.add_field(name='KL nước ngoài Bán: ', value=f'{utils.format_value(data["SellForeignQuantity"])}', inline=True)        
+        
+        await ctx.send(embed=embed)
+        
+        await ctx.respond(mess, delete_after=self.__TIMEOUT)
 
     @discord.slash_command(
         name='briefstats',
         description='Check symbol brief stats.'
     )
     async def getStockBrief(self, ctx, *, symbol):
-        data = fetch.call_api_vietstock(symbol)
-        await ctx.respond("EPS: " + str(data["EPS"]) + "\n" + "P/E: " + str(data["PE"]) + "\n" + "P/B: " + str(data["PB"]), delete_after=self.__TIMEOUT)
+        data = fetch.fetchFianancialInfo(symbol.upper())
+        print(data)
+        
+        embed = discord.Embed()
+        embed.set_author(name=f'Thông tin của doanh nghiệp {symbol}:')
+        embed.add_field(name='Giá trị EPS: ', value=f'{utils.format_value(data["BasicEPS"])}', inline=True)
+        embed.add_field(name='Giá trị P/E: ', value=f'{utils.format_value(data["BasicPE"])}', inline=True)
+        embed.add_field(name='Giá trị P/B: ', value=f'{utils.format_value(data["BookValuePerShare"])}', inline=True)
+        embed.add_field(name='Giá trị ROA: ', value=f'{utils.format_percent(data["ROA"])}', inline=True)
+        embed.add_field(name='Giá trị ROE: ', value=f'{utils.format_percent(data["ROE"])}', inline=True)
+        embed.add_field(name='Giá trị ROIC: ', value=f'{data["ROIC"]}', inline=True)
+        embed.add_field(name='Giá trị EBIT: ', value=f'{utils.format_value(data["EBIT"])}', inline=True)
+        embed.add_field(name='Giá trị EBITDA: ', value=f'{utils.format_value(data["EBITDA"])}', inline=True)
+        
+        await ctx.respond(f"Thông tin của doanh nghiệp: {symbol.upper()} đến ngày {utils.get_today_date()}", delete_after=self.__TIMEOUT)
+        await ctx.send(embed=embed)
         
     @slash_command(
         name='chart',
