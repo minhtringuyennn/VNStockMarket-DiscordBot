@@ -46,4 +46,4 @@ class CogName(commands.Cog): # Thay đổi 'CogName' với tên cog bạn muốn
 def setup(bot):
     bot.add_cog(CogName(bot))
 ```
-3. Thêm đường dẫn vào `main.py` với dạng `cogs.commands.filename`
+3. Thêm đường dẫn vào `stock_bot.py` với dạng `cogs.commands.filename`
