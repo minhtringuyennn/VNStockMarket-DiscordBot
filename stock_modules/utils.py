@@ -1,9 +1,11 @@
 # Import python modules
-import re
+import re, pytz
 import numpy as np
 import pandas as pd
 from datetime import datetime 
 from datetime import timedelta
+from dateutil import parser
+import pytz
 
 def format_value(val):
     return "{:,.0f}".format(float(val))
@@ -11,8 +13,11 @@ def format_value(val):
 def format_percent(val):
     return "{:,.2f}%".format(float(val) * 100.0)
 
-def get_current_time():
-    return datetime.now().strftime("%H:%M:%S")
+def get_current_time(val):
+    time =  parser.isoparse(val)
+    time_zone = pytz.timezone('Asia/Ho_Chi_Minh')
+    time = time.astimezone(time_zone).strftime('%Y-%m-%d, %H:%M:%S')
+    return str(time)
 
 def get_today_date():
     today = datetime.now()
@@ -34,7 +39,7 @@ def convert_text_dateformat(text, origin_type = '%Y-%m-%d', new_type = '%Y-%m-%d
 
 def calc_break_day(data, start_date, end_date):
     dt_chart = data['date'].index
-    print(dt_chart)
+    # print(dt_chart)
     dt_chart = pd.to_datetime(dt_chart).strftime("%Y-%m-%d").tolist()
     
     dt_all = []

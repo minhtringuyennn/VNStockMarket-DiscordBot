@@ -202,7 +202,10 @@ def fetchCurrentPrice(symbol):
     
     # Get reponse from API
     res = requests.get(FIREANT_API, headers=HEADERS)
-    return res.json()[0]
+    try:
+        return res.json()[0]
+    except:
+        return None
 
 def fetchFianancialInfo(symbol):
     # API
@@ -210,4 +213,7 @@ def fetchFianancialInfo(symbol):
     
     # Get reponse from API
     res = requests.get(FIREANT_API, headers=HEADERS)
-    return res.json()
+    try:
+        return res.json()
+    except:
+        return None

@@ -15,12 +15,12 @@ class DefaultCommands(commands.Cog):
     async def on_command(self, ctx):
         channel = self.bot.get_channel(int(self.LogID))
         await channel.send(f'{ctx.message.author} run `{ctx.message.content}` in channel `{ctx.message.channel}` in server `{ctx.message.guild}`')
-
+    
     @commands.Cog.listener()
     async def on_ready(self):
         print('Stock Bot is now ready!')
         print('Logged in as ---->', self.bot.user)
-        print('ID:', self.bot.user.id)
+        print('ID:', self.bot.user.id)  
 
     @commands.Cog.listener()
     async def on_command_error(self, ctx, error):
