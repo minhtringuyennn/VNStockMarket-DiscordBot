@@ -1,3 +1,5 @@
+#!/usr/bin/python3
+
 import configparser
 import os, asyncio, pathlib, string
 
@@ -26,8 +28,6 @@ class MyBot(commands.Bot):
 
 if __name__ == "__main__":
     BOT = MyBot()
-
     BOT.add_cog(default.DefaultCommands(BOT))
     BOT.add_cog(price.Price(BOT))
-    
     BOT.run()

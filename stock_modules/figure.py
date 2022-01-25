@@ -1,4 +1,5 @@
 import math
+import io
 import numpy as np
 import pandas as pd
 import matplotlib as mpl
@@ -12,6 +13,8 @@ import stock_modules.fetch as fetch
 import stock_modules.utils as utils
 import stock_modules.indicate as indicate
 
+img = io.BytesIO()
+
 def drawFigure(data, Symbol, length, drawMA=True, drawBB=True, drawVol=True, drawRSI=True, drawMACD=True):
 
     length = max(14, length)
@@ -22,7 +25,7 @@ def drawFigure(data, Symbol, length, drawMA=True, drawBB=True, drawVol=True, dra
     # SETTING UP THE PLOT
     LENGTH = -length
     SUBPLOT = 1 + int(drawVol) + int(drawRSI) + int(drawMACD)
-    print(SUBPLOT)
+    # print(SUBPLOT)
     PADDING = 0.02
     LEFT = 0.06
     WIDTH = 1 - 2 * LEFT
@@ -138,8 +141,10 @@ def drawFigure(data, Symbol, length, drawMA=True, drawBB=True, drawVol=True, dra
         ax_macd.bar(range(data.index.size), data["hist"] * 2, label="Histogram", color=np.where(data['hist'] < 0, 'red', 'green'))
         ax_macd.axes.get_xaxis().set_visible(False)
         ax_macd.legend()
-
-    fig.savefig("./images/index.png")
+    fig.savefig(img,Format="png")
+    plt.cla()
+    plt.clf()
+    plt.close('all')
     
 # Custom plot figure
 def weekday_candlestick(ax, ohlc_data, fmt='%b %d', freq=1, **kwargs):
