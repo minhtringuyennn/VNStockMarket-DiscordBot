@@ -7,11 +7,21 @@ from datetime import timedelta
 from dateutil import parser
 import pytz
 
-def format_value(val):
-    return "{:,.0f}".format(float(val))
+def format_value(val, basic = True):
+    if basic == True:
+        return "{:,.0f}".format(float(val))
+    else:
+        return "{:,.2f}".format(float(val))
 
 def format_percent(val):
-    return "{:,.2f}%".format(float(val) * 100.0)
+    val = float(val)
+    if val > 0:
+        return "+{:,.2f}%".format(float(val))
+    if val == 0:
+        return "{:,.2f}%".format(float(val))
+    if val < 0:
+        val = -val
+        return "-{:,.2f}%".format(float(val))
 
 def get_current_time(val):
     time =  parser.isoparse(val)
